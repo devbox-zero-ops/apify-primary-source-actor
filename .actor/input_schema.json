@@ -7,20 +7,26 @@
       "title": "Official Data Source",
       "type": "string",
       "description": "Which zero-key official API to query.",
+      "editor": "select",
       "enum": ["fred", "defillama", "arxiv", "usgs_quake", "openfda", "clinicaltrials", "github_releases", "wikipedia_stats"],
-      "default": "fred"
+      "default": "fred",
+      "prefill": "fred"
     },
     "query": {
       "title": "Series ID / Repo / Search Query",
       "type": "string",
       "description": "Examples: 'ICSA' (FRED), 'aave' (DefiLlama), 'oven-sh/bun' (GitHub), 'agentic web' (arXiv), 'aspirin' (OpenFDA).",
-      "default": "ICSA"
+      "editor": "textfield",
+      "default": "ICSA",
+      "prefill": "ICSA"
     },
     "limit": {
       "title": "Max Items / Rows",
       "type": "integer",
       "description": "Maximum number of latest records to return.",
+      "editor": "number",
       "default": 10,
+      "prefill": 10,
       "minimum": 1,
       "maximum": 100
     }
