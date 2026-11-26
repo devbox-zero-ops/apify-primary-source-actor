@@ -1,0 +1,11 @@
+{
+  "actorOutputSchemaVersion": 1,
+  "title": "Primary-Source Extracted Records",
+  "properties": {
+    "dataset": {
+      "type": "string",
+      "title": "Extracted Official API Dataset",
+      "template": "{{links.apiDefaultDatasetUrl}}/items"
+    }
+  }
+}
