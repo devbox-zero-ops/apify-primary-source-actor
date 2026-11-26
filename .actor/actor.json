@@ -1,0 +1,12 @@
+{
+  "actorSpecification": 1,
+  "name": "primary-source-macro-data-extractor",
+  "title": "Primary-Source Macro, Regulatory & Market Data Extractor (Zero API Key)",
+  "description": "Extract structured, judge-verified data from 10+ zero-key official primary APIs (FRED, SEC EDGAR, OpenFDA, ClinicalTrials.gov, USGS Earthquakes, ECB FX, US Treasury, arXiv, DefiLlama, GitHub/PyPI/npm) with built-in arithmetic summaries.",
+  "version": "1.0",
+  "meta": {
+    "templateId": "python-start"
+  },
+  "input": "./input_schema.json",
+  "dockerfile": "./Dockerfile"
+}
